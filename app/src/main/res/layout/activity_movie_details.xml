@@ -23,6 +23,33 @@
             app:layout_constraintTop_toTopOf="parent"></ImageView>
 
         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="56dp"
+            android:text="@string/back_text"
+            android:textSize="12dp"
+            android:textColor="@color/white"
+            android:background="@drawable/background_gradient"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:shadowColor="#19000000"
+            android:shadowDy="4"
+            android:shadowRadius="4"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="18dp"
+            android:layout_marginTop="59dp"
+            android:src="@drawable/arrow_left"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:shadowColor="#19000000"
+            android:shadowDy="4"
+            android:shadowRadius="4"/>
+
+        <TextView
             android:id="@+id/name"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -136,7 +163,7 @@
             android:src="@drawable/robert"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/cast"
-            app:shapeAppearanceOverlay="@style/circleImageView"/>
+            app:shapeAppearanceOverlay="@style/circleImageView" />
 
         <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="80dp"
@@ -147,7 +174,7 @@
             android:src="@drawable/chris"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/cast"
-            app:shapeAppearanceOverlay="@style/circleImageView"/>
+            app:shapeAppearanceOverlay="@style/circleImageView" />
 
         <com.google.android.material.imageview.ShapeableImageView
             android:layout_width="80dp"
@@ -169,7 +196,7 @@
             android:src="@drawable/chris2"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="@id/cast"
-            app:shapeAppearanceOverlay="@style/circleImageView"/>
+            app:shapeAppearanceOverlay="@style/circleImageView" />
 
         <TextView
             android:layout_width="80dp"
