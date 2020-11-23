@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Crazy2</string>
+    <string name="age_text">13+</string>
+    <string name="type_text">Action, Adventure, Fantasy</string>
+    <string name="reviews_text">125 Reviews</string>
+    <string name="storyline_text">Storyline</string>
+    <string name="text_description">After the devastating events of Avengers: Infinity War, the universe is in ruins. With the help of remaining allies, the Avengers assemble once more in order to reverse Thanos\' actions and restore balance to the universe.</string>
+    <string name="cast_text">Cast</string>
+    <string name="robertname">Robert Downey Jr.</string>
+    <string name="evans_name">Chris Evans</string>
+    <string name="ruffalo_name">Mark Ruffalo</string>
+    <string name="hemsworth_name">Chris Hemsworth</string>
+</resources>
